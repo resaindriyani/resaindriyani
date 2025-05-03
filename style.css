@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('WhatsApp\ Image\ 2024-12-11\ at\ 19.42.47.jpeg'); /* Ganti dengan nama gambar kamu */
+    background-size: cover;  /* Gambar mengisi layar */
+    background-position: center; /* Gambar tetap di tengah */
+    text-align: center;
+    color: #fff; /* Agar teks bisa terlihat jelas di atas gambar */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan agar teks mudah dibaca */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.recorder button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e91e63;
+    color: white;
+    cursor: pointer;
+}
+
+.recorder button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+a button {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #25d366;
+}
+
+a button:hover {
+    background-color: #128c7e;
+}
